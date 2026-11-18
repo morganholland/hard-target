@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2560" viewBox="0 0 1600 2560">
+  <rect width="1600" height="2560" fill="#0d1117"/>
+  <path d="M861.4,854.2 A140,140 0 1 1 800.0,840.0" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M996.0,931.1 A202,202 0 1 1 947.7,842.2" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M1013.6,1135.2 A264,264 0 1 1 1063.4,998.4" fill="none" stroke="#ff6b2c" stroke-width="16" stroke-linecap="round"/>
+<path d="M822.7,1305.2 A326,326 0 1 1 1005.2,1233.3" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M520.9,1249.5 A388,388 0 1 1 746.0,1364.2" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M352.5,933.0 A450,450 0 1 1 431.4,1238.1" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M513.7,555.5 A512,512 0 1 1 299.2,873.5" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M958.2,428.2 A574,574 0 1 1 504.4,488.0" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M1381.0,721.3 A636,636 0 1 1 975.3,368.6" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<path d="M1427.4,1286.0 A698,698 0 1 1 1421.9,663.1" fill="none" stroke="#3a4250" stroke-width="10" stroke-linecap="round"/>
+<circle cx="800.0" cy="980" r="58" fill="#f4f1ea"/>
+  <text x="120" y="1960" fill="#f4f1ea" font-family="Inter Display" font-weight="900"
+        font-size="250" letter-spacing="-6">HARD</text>
+  <text x="120" y="2190" fill="#f4f1ea" font-family="Inter Display" font-weight="900"
+        font-size="250" letter-spacing="-6">TARGET</text>
+  <rect x="124" y="1700" width="180" height="14" fill="#ff6b2c"/>
+  <text x="124" y="1650" fill="#f4f1ea" font-family="Inter" font-weight="500"
+        font-size="54">The 2026 field manual for digital privacy</text>
+  <text x="124" y="2420" fill="#f4f1ea" font-family="Inter" font-weight="600"
+        font-size="58" letter-spacing="10">MORGAN HOLLAND</text>
+  <text x="1476" y="2420" fill="#3a4250" font-family="Inter" font-weight="500"
+        font-size="40" text-anchor="end">with AI agent prompts</text>
+</svg>

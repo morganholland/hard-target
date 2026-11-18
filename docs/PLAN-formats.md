@@ -2,8 +2,8 @@
 
 ## Status
 
-- **Done:** decisions agreed (below).
-- **Next:** build script, tests, cover, CI deploy.
+- **Done:** decisions agreed; build script, cover, KDP listing and tests (11 of 11 pass locally).
+- **Next:** CI green, independent review, merge, make the repo public, switch on Pages, check the live site.
 - **Owed by Morgan:** see [OWED.md](../OWED.md).
 
 ## Decisions (agreed 18 November 2026)

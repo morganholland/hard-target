@@ -1,0 +1,40 @@
+/* PDF edition, rendered by WeasyPrint. US Letter. */
+@page {
+  size: letter;
+  margin: 0.85in 0.9in 0.9in;
+  @bottom-center { content: counter(page); font: 9pt Inter, "DejaVu Sans", sans-serif; color: #6b7280; }
+  @top-right { content: string(chapter); font: 8.5pt Inter, "DejaVu Sans", sans-serif; color: #6b7280; }
+}
+@page :first { margin: 0; @bottom-center { content: none; } @top-right { content: none; } }
+@page front { @top-right { content: none; } }
+
+html { font: 10.5pt/1.5 Inter, "DejaVu Sans", sans-serif; color: #14181f; }
+.cover { page: cover; height: 11in; margin: 0; }
+.cover img { width: 8.5in; height: 11in; object-fit: cover; display: block; }
+
+.toc { page: front; break-before: page; break-after: page; }
+.toc-title { font-size: 20pt; font-weight: 800; margin: 0 0 0.6em; }
+.toc ol { list-style: none; padding: 0; }
+.toc li { margin: 0.35em 0; }
+.toc a { color: inherit; text-decoration: none; }
+.toc a::after { content: leader(".") target-counter(attr(href), page); color: #6b7280; }
+
+h1 { string-set: chapter content(); font-size: 22pt; line-height: 1.15; letter-spacing: -0.01em; margin: 0 0 0.7em; break-before: page; bookmark-level: 1; }
+h1#about-this-edition { string-set: chapter ""; }
+h2 { font-size: 13pt; margin: 1.5em 0 0.4em; break-after: avoid; bookmark-level: 2; }
+h3 { font-size: 11pt; margin: 1.2em 0 0.3em; break-after: avoid; bookmark-level: 3; }
+p, ul, ol { margin: 0 0 0.7em; }
+li { margin: 0.15em 0; }
+a { color: #c2410c; text-decoration: none; }
+strong { font-weight: 700; }
+
+blockquote { margin: 1em 0; padding: 0.6em 0.9em; background: #f4f1ea; border-left: 3pt solid #c2410c; break-inside: avoid; }
+blockquote p:last-child { margin-bottom: 0; }
+
+table { width: 100%; border-collapse: collapse; margin: 0.8em 0; font-size: 9pt; break-inside: auto; }
+th, td { border-bottom: 0.5pt solid #cfc9bc; padding: 0.3em 0.45em; text-align: left; vertical-align: top; }
+th { font-weight: 700; }
+tr { break-inside: avoid; }
+
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font: 8.5pt/1.45 "DejaVu Sans Mono", monospace; background: #f4f1ea; border: 0.5pt solid #cfc9bc; border-radius: 4pt; padding: 0.7em; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 0.9em; }
