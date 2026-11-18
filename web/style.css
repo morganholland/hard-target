@@ -99,6 +99,6 @@ footer { color: var(--muted); font-size: 0.85rem; padding-top: 2em; padding-bott
 .downloads { display: flex; flex-wrap: wrap; gap: 0.6em; }
 .button { display: inline-block; padding: 0.6em 1.1em; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-weight: 700; text-decoration: none; }
 .button.secondary { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
-.toc { padding-left: 1.2em; }
+.toc { list-style: none; padding-left: 0; }
 .toc li { margin: 0.4em 0; }
 .edition { color: var(--muted); font-size: 0.9rem; }

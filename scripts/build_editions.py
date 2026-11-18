@@ -160,10 +160,10 @@ def build_site():
 <a href="14-when-you-get-hit.html">chapter 14</a> now.</p>
 </blockquote>
 <h2>Contents</h2>
-<ol class="toc">
+<ul class="toc">
 {toc}
 <li><a href="sources.html">Sources</a></li>
-</ol>
+</ul>
 <p class="edition">Facts and cases checked on {EDITION_DATE_TEXT}. Settings and menu labels change often, so
 search an app's settings if a label has moved.</p>
 """
