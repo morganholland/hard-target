@@ -2,8 +2,8 @@
 
 ## Status
 
-- **Done:** decisions agreed; build script, cover, KDP listing and tests (11 of 11 pass locally).
-- **Next:** CI green, independent review, merge, make the repo public, switch on Pages, check the live site.
+- **Done:** all editions build in CI and 12 of 12 tests pass. Merged in #3.
+- **Next:** Morgan makes the repo public and sets the Pages source; then re-run the build, check the live site in a browser, and add the Amazon link once the Kindle edition is live.
 - **Owed by Morgan:** see [OWED.md](../OWED.md).
 
 ## Decisions (agreed 18 November 2026)

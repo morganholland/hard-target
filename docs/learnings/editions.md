@@ -6,3 +6,4 @@
 - Task-list checkboxes render as `<input>` in EPUB, which many readers draw badly. The book editions turn them into plain bullets.
 - WeasyPrint makes PDF bookmarks from `h1` and `h2`, and `target-counter()` fills in contents page numbers. Keep the cover and contents out of `h1` so the outline starts at chapter 0.
 - The website loads no fonts, scripts or images from other hosts. That matters for a privacy manual, and keeps the site working offline.
+- Claude sessions cannot change repository settings, including visibility and the Pages source. Ask the owner to flip those before the first deploy, or the first `main` deploy fails.
