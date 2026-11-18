@@ -2,9 +2,9 @@
 
 **A 2026 field manual for digital privacy, with paste-ready prompts that let an AI agent do the legwork.**
 
-You cannot be invisible in 2026, but you can be a hard target: expensive to scam, slow to find, and quick to recover. Each chapter opens with a real, sourced case, then gives the moves ranked by impact across three tiers: Baseline, Elevated and High-risk.
+You cannot be invisible in 2026, but you can be a hard target: expensive to scam, slow to find, and quick to recover. Most chapters open with a real, sourced case, then gives the moves ranked by impact across three tiers: Baseline, Elevated and High-risk.
 
-> If someone may be monitoring your device or shares your accounts, read the [safety note](chapters/00-start-here.md) before changing anything. If money just moved or your number was taken over, go straight to [incident response](chapters/14-when-you-get-hit.md).
+> If someone may be monitoring your device or shares your accounts, use a device they cannot reach and read the [safety note](chapters/00-start-here.md) before changing anything. If money just moved or your number was taken over, go straight to [incident response](chapters/14-when-you-get-hit.md).
 
 - Read it in one file: [MANUAL.md](MANUAL.md)
 - Short on time? Do the [90-minute quick start](chapters/00-start-here.md).
@@ -34,7 +34,7 @@ You cannot be invisible in 2026, but you can be a hard target: expensive to scam
 
 ## Agent prompts
 
-Paste [RULES](prompts/00-RULES.md) first, then one prompt. The rules keep you in control: you take over the screen before anything secret appears, the agent treats web pages as information rather than instructions, and it asks before every submit, send, delete or purchase.
+Paste [RULES](prompts/00-RULES.md) first, then one prompt. The rules keep you in control: you take over the screen before anything secret appears, the agent treats web pages as information rather than instructions, and it asks before every submit, send, delete or purchase. If a tool cannot pause screen capture while you take over, follow its directions in your own browser instead. P14 runs only on a schedule you approve, with results sent somewhere private.
 
 | Prompt | What it does | Needs |
 | --- | --- | --- |
