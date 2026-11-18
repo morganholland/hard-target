@@ -1,10 +1,14 @@
 # 0. Start here
 
-**If someone may be monitoring you:** You can stop here without entering any personal details. If possible, use a device and account that person cannot access. Changing carrier locks, location sharing, passwords, or a shared vault may alert them. Decide with a trusted person or advocate which changes are safe before following a checklist. [Technology safety planning](https://www.techsafety.org/resources-survivors/technology-safety-plan)
+You cannot be invisible in 2026, but you can be a hard target: expensive to scam, slow to find, and quick to recover. This manual is the shortest path there.
 
-If money has just moved, your phone number appears to have been taken over, or an account is compromised, go straight to [chapter 14](14-when-you-get-hit.md). The credit, tax, carrier, and reporting examples in this guide are US-specific unless stated otherwise. Elsewhere, use your country's consumer protection authority and your own providers.
+> **If someone may be monitoring you,** you can stop here without entering any personal details. New passwords, carrier locks and location changes can alert a person who shares your phone or accounts. Use a device they cannot reach, and plan the changes with a trusted person or advocate. [Technology safety planning](https://www.techsafety.org/resources-survivors/technology-safety-plan)
+>
+> **If you were just hit,** because money moved, your phone lost service or an account was taken over, go to [chapter 14](14-when-you-get-hit.md) now.
 
-**Pick the tier that fits.** Start with the baseline steps that are safe for you. Add other steps as your circumstances warrant.
+Most chapters have the same shape: a real case, the moves ranked by impact, and a pointer to an agent prompt in [chapter 15](15-agent-prompt-library.md) that does the legwork. Credit, tax, carrier and reporting steps are written for US readers. Elsewhere, use your country's equivalents.
+
+**Pick your tier.** Do every tier at or below yours.
 
 | Tier | Who | Focus |
 | --- | --- | --- |
@@ -12,15 +16,17 @@ If money has just moved, your phone number appears to have been taken over, or a
 | Elevated | People with a public profile or higher financial exposure | A person who has time to research you |
 | High-risk | Journalists, activists, stalking targets, anyone facing a specific threat | A plan tailored to the threat and to who controls the devices and accounts |
 
-**First session.** Start with primary email and one other account you rely on. A credit freeze or removal request can need a follow-up visit.
+**The 90-minute quick start.** These ten moves cover the most common ways people lose money and accounts. Do them in order, and skip any step that could alert someone watching you. Credit freezes and broker removals can need a second visit to finish.
 
-- [ ] Set up a password manager. Give email, your device account, the manager, your bank and your carrier unique sign-in credentials where supported.
-- [ ] Keep a trusted session open. Add a passkey where available and verify a fresh sign-in from a second session.
-- [ ] Verify a provider-supported recovery route you could use if this phone were lost. Save codes privately where offered or register a separate backup key. Keep the old method until both checks pass.
-- [ ] Check who can see carrier changes before turning on the available SIM-change and port-out locks.
-- [ ] Update your phone, set a six-digit or longer passcode, and check its theft protections.
-- [ ] Review app tracking and which apps need precise location. If sharing is sensitive, plan any change privately first.
+- [ ] Install a password manager. Give your email, Apple or Google account, bank, carrier and the manager itself unique passwords.
+- [ ] With your current session still signed in, add a passkey to your email and your Apple or Google account. Prove it works by signing in from a second browser.
+- [ ] Set up a way back in if you lose your phone: save recovery codes offline or register a backup security key. Test it before you remove any old sign-in method. Testing a Google backup code uses it up, so mark that code as used.
+- [ ] Turn on your carrier's SIM lock and port-out lock. Check first who gets notified: AT&T's lock covers the whole account, emails the primary holder and texts every line.
+- [ ] Freeze your credit at Equifax, Experian and TransUnion.
+- [ ] Agree a family safe word in person with the people you trust. A caller who knows it still gets a callback on a saved number before any money moves.
+- [ ] Update your phone, set a passcode of six digits or more, and turn on Stolen Device Protection (iPhone) or Theft Detection Lock (Android).
+- [ ] Turn off app tracking, and give precise location only to the apps that need it.
+- [ ] Turn off model training in every AI chatbot that lets you.
+- [ ] Start a data-broker removal sweep with [P4](../prompts/P4-data-broker-opt-out-sweep.md).
 
-**Follow up.** US readers can freeze their files at the three nationwide credit bureaus. Review AI training settings, start a broker removal request, and agree on a verification plan with someone you trust if that is safe for you.
-
-When someone asks for money or a code, stop. Call the person or institution on a number you already trust.
+**One rule above all.** The costliest crimes in the FBI's 2025 report, investment scams and business email compromise, work by persuading you, not by hacking you. When money, codes or urgency appear, stop, hang up, and call back on a number you already had.
