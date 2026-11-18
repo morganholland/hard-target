@@ -6,7 +6,9 @@ You cannot be invisible in 2026, but you can be a hard target: expensive to scam
 
 > If someone may be monitoring your device or shares your accounts, use a device they cannot reach and read the [safety note](chapters/00-start-here.md) before changing anything. If money just moved or your number was taken over, go straight to [incident response](chapters/14-when-you-get-hit.md).
 
-- Read it in one file: [MANUAL.md](MANUAL.md)
+- Read it online: [morganholland.github.io/hard-target](https://morganholland.github.io/hard-target/), chapter by chapter
+- Download it: [PDF](https://morganholland.github.io/hard-target/downloads/hard-target.pdf) or [EPUB](https://morganholland.github.io/hard-target/downloads/hard-target.epub)
+- Read it in one file here: [MANUAL.md](MANUAL.md)
 - Short on time? Do the [90-minute quick start](chapters/00-start-here.md).
 - Want an agent to do it? Start with [the rules](prompts/00-RULES.md), then [P0](prompts/P0-build-my-plan.md).
 
@@ -59,7 +61,10 @@ Paste [RULES](prompts/00-RULES.md) first, then one prompt. The rules keep you in
 - Facts and cases were checked on 18 November 2026. See [SOURCES.md](SOURCES.md).
 - Settings paths and menu labels change often. If one has moved, search the app's settings for the feature name.
 - This is general security guidance, not legal or financial advice.
+- Licensed under [CC BY-NC 4.0](LICENSE.md): share and adapt it freely, but not for sale.
 
 ## Editing the manual
 
 Edit the standalone chapters and prompt files first. Run `python3 scripts/build_manual.py` to refresh the embedded prompts and single-file edition. Run `python3 scripts/build_manual.py --check` to check that the copies match.
+
+To build the other editions, install pandoc, then `pip install weasyprint pypdf epubcheck`, and run `python3 scripts/build_editions.py` followed by `python3 scripts/test_editions.py`. The website lands in `site/`, and the book files in `dist/`. Every push to `main` rebuilds the site on GitHub Pages. The Kindle EPUB for KDP is kept as the `editions` workflow artifact on each `main` build, with its listing text in [kdp/listing.md](kdp/listing.md). The cover comes from `scripts/make_cover.py`.
