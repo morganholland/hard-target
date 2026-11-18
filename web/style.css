@@ -5,7 +5,7 @@
   --paper: #fbfaf7;
   --panel: #f1eee7;
   --rule: #ddd8cc;
-  --accent: #c2410c;
+  --accent: #a8360a;
   --accent-ink: #ffffff;
   --code-bg: #f1eee7;
   --measure: 42rem;
@@ -75,13 +75,14 @@ pre {
   white-space: pre-wrap;
   overflow-wrap: anywhere;
 }
+.prompt { position: relative; }
+.prompt pre { padding-top: 2.6em; }
 .copy {
-  position: absolute; top: 0.5em; right: 0.5em;
+  position: absolute; top: 0.5em; right: 0.5em; z-index: 1;
   font: 600 0.8rem/1 system-ui, sans-serif;
   padding: 0.45em 0.7em; border-radius: 6px; border: 0;
   background: var(--accent); color: var(--accent-ink); cursor: pointer;
 }
-pre:has(.copy) { padding-top: 2.6em; }
 
 ul.task-list, ul:has(> li > input[type="checkbox"]) { list-style: none; padding-left: 0.2em; }
 input[type="checkbox"] { accent-color: var(--accent); margin-right: 0.5em; transform: scale(1.15); }

@@ -29,5 +29,5 @@ Each requirement maps to a check in `scripts/test_editions.py`, which runs again
 - **R8 Kindle EPUB.** `dist/hard-target-kindle.epub` passes epubcheck with no errors, declares its cover with `properties="cover-image"`, has no separate HTML cover page, and carries title, author, language, date and description metadata.
 - **R9 Cover.** `assets/cover.jpg` is a 1600 × 2560 RGB JPEG.
 - **R10 KDP kit.** `kdp/` holds the listing text (description, keywords, categories, price, AI disclosure answer) used on the upload page.
-- **R11 CI.** Pull requests build every edition and run the tests. Pushes to `main` also deploy `site/` to GitHub Pages and keep the Kindle EPUB as a private workflow artifact.
+- **R11 CI.** Pull requests build every edition and run the tests. Pushes to `main` also deploy `site/` to GitHub Pages and keep the book files, including the Kindle EPUB, as a workflow artifact. On a public repo any signed-in GitHub user can download it, which is fine: the same text is free on the site.
 - **R12 License.** `LICENSE.md` states CC BY-NC 4.0, and every edition's copyright page says so.

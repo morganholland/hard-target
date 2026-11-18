@@ -19,9 +19,9 @@ Paste this into the description box. KDP accepts the bold and list tags.
 ```html
 <b>You cannot be invisible in 2026, but you can be a hard target: expensive to scam, slow to find, and quick to recover.</b>
 <br><br>
-Most money is now lost to someone who persuades you, not someone who hacks you. Voices can be cloned, your address is for sale for a few dollars, and the AI agents you hand your accounts to can be tricked by a single web page. This field manual is the shortest path to fixing that.
+The costliest crimes in the FBI's 2025 report work by persuading you, not by hacking you. Voices can be cloned, your address is for sale for a few dollars, and the AI agents you hand your accounts to can be tricked by a single web page. This field manual is the shortest path to fixing that.
 <br><br>
-Seventeen short chapters, each opening with a real, sourced case, then the moves ranked by impact for three levels of risk:
+Seventeen short chapters, most opening with a real, sourced case, then the moves ranked by impact for three levels of risk:
 <ul>
 <li>A 90-minute quick start that covers the most common ways people lose money and accounts</li>
 <li>Passkeys, hardware keys and recovery that will not lock you out</li>
@@ -53,7 +53,7 @@ KDP allows seven. One per box.
 
 ## Categories
 
-KDP lets you pick up to three. Choose these, or the closest match the picker offers:
+KDP lets you pick up to three. The picker uses Amazon's own category names, so choose the closest match to each of these:
 
 1. Computers / Security / Online Safety & Privacy
 2. Computers / Security / General
@@ -72,7 +72,9 @@ KDP lets you pick up to three. Choose these, or the closest match the picker off
 KDP asks whether the book contains AI-generated content. KDP counts content as AI-generated when an AI tool created it, even if you edited it heavily afterwards. Answer:
 
 - Text: **Yes.** The chapters and prompts were drafted with an AI tool, then edited and fact-checked.
-- Images: **Yes.** The cover was produced by a script written with an AI tool.
+- Images: **Yes.** The cover is a typographic design drawn by a script that an AI tool wrote. That is borderline, and saying yes is the safe answer.
+- If KDP asks which tool: Claude (Anthropic). If it asks how much: most of the text, edited and fact-checked by you.
+- Answering yes does not change how the book is shown to buyers. KDP uses it for its own records.
 - Translations: **No.**
 
 ## Price
@@ -82,3 +84,4 @@ KDP asks whether the book contains AI-generated content. KDP counts content as A
 - Royalty plan: 70%.
 - List price: **$2.99 USD**, the lowest price in the 70% band. Let KDP set the other marketplaces from the US price.
 - Book lending: leave enabled (it is required on the 70% plan).
+- Price matching: Amazon may lower the price to match the free PDF and EPUB, possibly to free. If that happens, there is nothing to do; the free web edition is the point.

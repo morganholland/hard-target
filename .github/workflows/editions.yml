@@ -11,7 +11,8 @@ permissions:
 
 concurrency:
   group: editions-${{ github.ref }}
-  cancel-in-progress: true
+  # Cancel superseded PR builds, but never a deploy that has started on main.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   build:
@@ -26,25 +27,26 @@ jobs:
           distribution: temurin
           java-version: "21"
       - name: Install pandoc and fonts
-        run: sudo apt-get update && sudo apt-get install -y pandoc fonts-inter fonts-dejavu-core
+        run: sudo apt-get update && sudo apt-get install -y pandoc poppler-utils fonts-inter fonts-dejavu-core libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
       - name: Install Python tools
         run: pip install weasyprint==70.0 pypdf==6.17.0 epubcheck==5.4.0
       - name: Build site, PDF, EPUB and Kindle EPUB
         run: python3 scripts/build_editions.py
       - name: Test every edition
         run: python3 scripts/test_editions.py
-      - name: Keep the book files (Kindle EPUB is not published on the site)
+      - name: Keep the book files for KDP (the Kindle EPUB is not linked from the site)
+        if: github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v4
         with:
           name: editions
           path: dist/
-      - if: github.event_name != 'pull_request'
+      - if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site/
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-24.04
     permissions:

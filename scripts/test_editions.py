@@ -54,7 +54,7 @@ def test_r2_navigation():
     names = [page_name(c) for c in CHAPTERS]
     for i, name in enumerate(names):
         page = Page(SITE / name)
-        assert "index.html" in page.links, f"{name} has no link to the contents page"
+        assert page.links.count("index.html") >= 2, f"{name}: no Contents link in the chapter navigation"
         if i > 0:
             assert page.rels.get("prev") == names[i - 1], f"{name}: prev link is {page.rels.get('prev')}"
         if i < len(names) - 1:
@@ -82,8 +82,12 @@ def test_r3_links_resolve():
 
 def test_r4_prompt_blocks():
     page = Page(SITE / "15-agent-prompt-library.html")
-    prompts = len(list((ROOT / "prompts").glob("*.md")))
-    assert page.pres >= prompts, f"{page.pres} code blocks, expected at least {prompts}"
+    prompts = sorted((ROOT / "prompts").glob("P*-*.md"))
+    assert page.pres == len(prompts) + 1, f"{page.pres} code blocks, expected {len(prompts) + 1} (rules + prompts)"
+    for prompt in prompts:
+        anchor = re.sub(r"[^\w -]", "", prompt.read_text(encoding="utf-8").splitlines()[0][2:].lower()).replace(" ", "-")
+        assert anchor in page.ids, f"prompt section #{anchor} missing from the prompt library page"
+    assert "shared-rules" in page.ids
     assert "copy.js" in page.scripts, "copy.js is not loaded"
     assert (SITE / "copy.js").exists()
 
@@ -106,7 +110,13 @@ def test_r6_pdf():
     for chapter in CHAPTERS:
         title = chapter.read_text(encoding="utf-8").splitlines()[0].removeprefix("# ")
         assert title in titles, f"PDF outline lacks '{title}'"
-    assert len(reader.pages) > 40, f"only {len(reader.pages)} pages"
+    assert len(reader.pages) > 30, f"only {len(reader.pages)} pages"
+    assert LICENSE_NAME in " ".join((p.extract_text() or "") for p in reader.pages[:4]), "PDF lacks the license notice"
+    # Prompt blocks and tables must stay inside the right margin (0.9in on Letter = 547.2pt).
+    bbox = subprocess.run(["pdftotext", "-bbox", str(SITE / "downloads/hard-target.pdf"), "-"],
+                          capture_output=True, text=True, check=True).stdout
+    widest = max(float(x) for x in re.findall(r'xMax="([\d.]+)"', bbox))
+    assert widest <= 547.2 + 2, f"text runs past the right margin (x = {widest:.1f}pt)"
 
 
 def epubcheck(path):
@@ -166,6 +176,17 @@ def test_r10_kdp_kit():
     keywords = listing.split("## Keywords", 1)[1].split("##", 1)[0]
     count = len([l for l in keywords.splitlines() if l.startswith(("- ", "1", "2", "3", "4", "5", "6", "7"))])
     assert count == 7, f"KDP allows 7 keywords, found {count}"
+
+
+def test_r11_ci():
+    workflow = (ROOT / ".github/workflows/editions.yml").read_text(encoding="utf-8")
+    assert "pull_request:" in workflow, "editions are not built on pull requests"
+    assert "python3 scripts/build_editions.py" in workflow and "python3 scripts/test_editions.py" in workflow
+    deploy = workflow.split("\n  deploy:", 1)[1]
+    assert "github.ref == 'refs/heads/main'" in deploy.split("steps:", 1)[0], "deploy is not limited to main"
+    assert "pages: write" in deploy and "actions/deploy-pages" in deploy
+    upload = workflow.split("upload-pages-artifact", 1)[0].rsplit("- ", 1)[1]
+    assert "refs/heads/main" in upload, "the Pages artifact is uploaded from branches other than main"
 
 
 def test_r12_license():

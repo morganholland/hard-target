@@ -249,7 +249,8 @@ def build_pdf():
     body = pandoc(book_markdown(kindle=False), "-t", "html5", "--no-highlight")
     titles = [heading(c.read_text(encoding="utf-8")) for c in CHAPTERS]
     toc = "\n".join(
-        f'<li><a href="{build_manual.anchor(t)}">{html.escape(t)}</a></li>' for t in titles
+        f'<li><a href="{build_manual.anchor(t)}">{html.escape(t)}</a></li>'
+        for t in ["About this edition", *titles, "Sources"]
     )
     document = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><title>{TITLE}: {SUBTITLE}</title>
