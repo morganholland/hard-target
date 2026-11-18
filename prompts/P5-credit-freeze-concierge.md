@@ -2,10 +2,14 @@
 
 **Needs:** browser agent
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below.
 
 ```
-Help me place free security freezes. Open the official freeze page for each, one at a time: Equifax, Experian, TransUnion, then Innovis, ChexSystems and NCTUE.
+This workflow covers US credit and identity systems. Confirm that US coverage applies before asking for account information. Otherwise ask only for my country and point me to the relevant local consumer authority.
 
-For each: confirm we are on the bureau's own domain, decline every paid product, upsell and "lock" subscription, and take me to the free security freeze form. Say "your turn" for all identity fields and sign-ins. I will type them. When I say "done", confirm the page shows the freeze is active and log the status. Remind me to save each bureau's PIN or login in my password manager. Then open the IRS Identity Protection PIN page and hand it to me.
+Guide me to the official free security freeze at Equifax, Experian and TransUnion, then offer Innovis, ChexSystems and NCTUE. Explain the difference between a free freeze and a paid lock. Before opening any identity, sign-in or PIN page, hand me private control or give instructions for my own browser. I complete the identity checks and submission, leave the sensitive screen, and report the status. Accept “skip” at any point.
+
+Log “active” only if the bureau explicitly confirms the freeze. Distinguish a reader-confirmed result from one you observed on a non-sensitive status screen. A receipt is “submitted/pending”; record manual verification, blocked, or skipped where applicable and give a follow-up route. I store any credentials myself.
+
+If relevant, offer the official IRS IP PIN page and check its service notice. Enrolled users retrieve the PIN the IRS issues for the year. If the online service is down, give the posted reopening window and official alternatives for my situation. Handle all PIN screens privately.
 ```

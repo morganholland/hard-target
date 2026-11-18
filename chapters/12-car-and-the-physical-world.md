@@ -2,11 +2,11 @@
 
 A modern car is a phone on wheels with worse privacy settings, and public cameras now log where it goes. You can cut the first sharply and the second only a little.
 
-**The case.** General Motors collected precise location and driving behaviour, as often as every three seconds, through its OnStar Smart Driver feature, and sold it on. Data reached brokers LexisNexis and Verisk, and from there insurers. In January 2026 the FTC finalised a 20-year order: a five-year ban on sharing that data with consumer reporting agencies, and explicit consent for collection. ([FTC](https://ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers), [Parker Poe](https://www.parkerpoe.com/news/2026/01/ftc-finalizes-order-alleging-improper-collection-and-sale))
+**The case.** General Motors collected precise location and driving behaviour, as often as every three seconds, through its OnStar Smart Driver feature, and sold it on. Data reached brokers LexisNexis and Verisk, and from there insurers. In January 2026 the FTC finalised a 20-year order: a five-year ban on sharing that data with consumer reporting agencies, and explicit consent for collection. ([FTC](https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers), [Parker Poe](https://www.parkerpoe.com/news/2026/01/ftc-finalizes-order-alleging-improper-collection-and-sale))
 
 **Baseline: your car**
 
-1. Look up what your model collects at [vehicleprivacyreport.com](https://vehicleprivacyreport.com).
+1. Start with the manufacturer’s privacy policy and your model’s settings. The optional [Vehicle Privacy Report](https://vehicleprivacyreport.com) asks for a VIN. Enter it privately only if you want that service to receive it. A policy describes possible collection. A disclosure report can show what was actually recorded.
 2. In the car's app and dashboard settings, turn off driving-score, "smart driver" and data-sharing programmes.
 3. Decline insurer telematics dongles and apps unless the discount is worth being scored on every trip.
 4. Request your LexisNexis consumer disclosure and check it for driving data.
@@ -18,7 +18,7 @@ A modern car is a phone on wheels with worse privacy settings, and public camera
 Licence-plate readers photograph every passing car and log plate, make, colour and features such as bumper stickers. One vendor, Flock Safety, works with more than 5,000 police agencies, and volunteers have mapped over 76,000 readers. More than 50 communities cancelled or paused contracts in 2026. ([NPR](https://www.wlrn.org/npr-breaking-news/2026-02-17/cities-ditch-license-plate-readers-over-privacy-worries), [Route Fifty](https://www.route-fifty.com/digital-government/2026/08/flock-safety-tightens-safeguards-states-cities-question-surveillance-network/415455/))
 
 1. You cannot opt out as a driver. Covering or altering a plate is illegal almost everywhere.
-2. You can see where readers are at [deflock.me](https://deflock.me) and ask your town what its retention and sharing rules are.
+2. You can see where readers are at [DeFlock](https://deflock.org/) and ask your town what its retention and sharing rules are.
 
 **Faces and travel**
 
@@ -29,10 +29,10 @@ Licence-plate readers photograph every passing car and log plate, make, colour a
 
 **Crossing a border**
 
-US border officers searched 55,318 devices in fiscal 2025, a record, and a January 2026 directive widened the list of device types covered. It is still under 0.01% of travellers. ([Reason](https://reason.com/2026/07/13/border-cops-can-search-your-phone-whenever-they-want-if-youre-within-100-miles-of-the-border/))
+US Customs and Border Protection recorded 55,318 electronic-device searches at ports of entry in fiscal 2025. [Court filing citing CBP figures](https://www.supremecourt.gov/DocketPDF/26/26-208/424450/20260916110731502_26-208acTexasCriminalDefenseLawyersAssociation.pdf)
 
 1. Carry less. Sign out of apps you do not need on the trip, and leave old devices at home.
 2. Power devices fully off before the checkpoint. That disables face and fingerprint unlock until the passcode is entered.
 3. Know your position: US citizens cannot be refused entry for declining to unlock, but the device can be held. Non-citizens can be turned away. Ask a lawyer about your own situation before you travel.
 
-**Agent prompt:** P10 (car data check).
+**Agent prompt:** [P10](../prompts/P10-car-data-check.md) (car data check).

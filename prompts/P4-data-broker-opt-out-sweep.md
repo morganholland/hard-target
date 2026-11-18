@@ -2,16 +2,12 @@
 
 **Needs:** browser agent
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below.
 
 ```
-Remove my own listings from people-search sites. My details, to be used only for finding and removing my own records: name [FULL NAME], other names used [ALIASES], current city and state [CITY, STATE], previous cities [LIST], age [AGE].
+Help me check and remove my own people-search listings. Use only the minimum search information I choose to give the named sites. Start with a short list I approve from Spokeo, Whitepages, BeenVerified, Intelius, PeopleFinders, Radaris, TruePeopleSearch, FastPeopleSearch, Nuwber, MyLife, Instant Checkmate, TruthFinder, USPhonebook, ClustrMaps and That's Them. Tell me which identifiers a query sends and to whom before submitting it.
 
-Sites: Spokeo, Whitepages, BeenVerified, Intelius, PeopleFinders, Radaris, TruePeopleSearch, FastPeopleSearch, Nuwber, MyLife, Instant Checkmate, TruthFinder, USPhonebook, ClustrMaps, That's Them.
+For each site, use its official search. Record “no visible match” only after a successful search; use “blocked/unverified” for an inaccessible result and “ambiguous” for a namesake. Let me inspect a possible match privately before proceeding. Omit relatives' details. Offer the official removal page for my confirmed listing only. Use the minimum fields, ask before each submission, and let me handle email verification. Do not create accounts, pay, supply phone numbers, or upload IDs for me.
 
-For each site: search for me. If there is no match, log "not listed". If there is a match, show it to me to confirm it is me, then open the site's own opt-out or "do not sell" page and fill the form with the minimum fields. Ask before submitting. Do not create an account, do not pay, do not give a phone number. If a confirmation email is required, tell me and I will click it myself.
-
-Do not look up, record or report on anyone else. If relatives appear on my listing, note only that the listing exposes relatives.
-
-Finish with the log table and a re-check date 30 days from today.
+Log the site, date, and actual state: no visible match, blocked/unverified, ambiguous, match confirmed, awaiting email, submitted/pending, or removal verified. A receipt is pending. Mark removal verified only after a later successful check finds the previously confirmed listing gone. Give me a re-check date in 30 days or after the provider's stated processing window, whichever is later.
 ```

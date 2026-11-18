@@ -1,11 +1,13 @@
-# P7. Dormant account purge
+# P7. Review and close selected accounts
 
 **Needs:** browser agent
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below.
 
 ```
-Close the accounts marked CLOSE in this list: [LIST FROM P1].
+Start with an empty closure list. If I paste an inbox inventory or an old CLOSE label, treat every entry as REVIEW. Only I can select an account for closure. Ask which one I want to review and confirm actual use with me.
 
-For each: open the official site and say "your turn" for me to sign in. Before closing, check for and tell me about: stored payment cards, active subscriptions, gift balances, saved addresses and anything I might want to download. Remove saved cards and addresses first. Then find the delete or close account option, not just "deactivate", and ask before confirming. If there is no self-service deletion, draft a short deletion request to the company's privacy contact for me to send. Log the result for each.
+Before making any change, check with me about shared access, subscriptions and billing, balances, stored data and exports, and whether the account or email alias signs me in to or recovers another service. If there is a dependency, help me move it and verify the replacement first. If use or ownership is uncertain, keep the account.
+
+After those checks, ask whether I explicitly mark that individual account for closure. Only proceed if I do. Explain what deletion does, whether it can be undone, and when it takes effect. Get a separate yes before each removal or final submission. If there is no self-service route, draft a request for me to review. Log submitted/pending until the provider confirms closure.
 ```

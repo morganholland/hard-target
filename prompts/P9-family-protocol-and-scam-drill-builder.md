@@ -2,14 +2,12 @@
 
 **Needs:** chat
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below.
 
 ```
-Help me set up a family verification protocol. Household: [WHO, AGES, ANY OLDER RELATIVES].
+Help me make a verification plan with people I trust. Use roles and rough ages only. Do not suggest or ask for the actual safe word or duress word; we choose them in person. If someone in the household may be unsafe, let me build a plan with a trusted person outside it or skip this exercise.
 
-1. Explain in five sentences why voices and video can no longer be trusted on their own.
-2. Give me criteria for a good safe word and a duress word. Do not suggest the actual words. We will choose them in person and never type them.
-3. Write a one-page family rule sheet in plain language, with a version a 7-year-old and an 80-year-old can each follow.
-4. Write three practice scenarios I can role-play with my family: a relative in trouble, a bank fraud department, and a boss or school asking for an urgent payment. Include what the caller says and the correct response.
-5. Write a 10-minute agenda for a family meeting to introduce this.
+Write a short rule sheet a child and an older relative can use. For an urgent request, pause and call back on a number we already knew. If the person cannot answer, try a second trusted contact or the institution's independently published number. If there is immediate danger, contact local emergency services. Hold any payment or disclosure while the request is unverified.
+
+Give three brief practice situations (a relative, a bank, a school or employer) with the safe response, plus a ten-minute family meeting agenda.
 ```

@@ -2,10 +2,12 @@
 
 **A 2026 field manual for digital privacy, with paste-ready prompts that let an AI agent do the legwork.**
 
-You cannot be invisible in 2026, but you can be a hard target: expensive to scam, slow to find, and quick to recover. Each chapter opens with a real, sourced case, then gives the moves ranked by impact across three tiers: Baseline, Elevated and High-risk.
+Start with the accounts a household relies on and a way to recover them if a phone goes missing. The credit, tax, carrier, and reporting examples are primarily for US readers.
+
+If someone may monitor your device or share access to your accounts, you can use a safer device and read the [safety guidance](chapters/00-start-here.md) before changing anything. If a payment just went out or a number was taken over, go directly to [incident response](chapters/14-when-you-get-hit.md).
 
 - Read it in one file: [MANUAL.md](MANUAL.md)
-- Short on time? Do the [90-minute quick start](chapters/00-start-here.md).
+- Short on time? Do the [first-session checklist](chapters/00-start-here.md).
 - Want an agent to do it? Start with [the rules](prompts/00-RULES.md), then [P0](prompts/P0-build-my-plan.md).
 
 ## Chapters
@@ -32,28 +34,32 @@ You cannot be invisible in 2026, but you can be a hard target: expensive to scam
 
 ## Agent prompts
 
-Paste [RULES](prompts/00-RULES.md) first in every session. The rules keep you in control: the agent never handles passwords or codes, treats web pages as information rather than instructions, and asks before every submit, send, delete or purchase.
+Paste [RULES](prompts/00-RULES.md) first, then one prompt. Use private takeover before a sensitive page opens and leave it before the agent resumes. Where the tool cannot pause capture, follow directions in your own browser. P14 needs a separately approved schedule and private destination.
 
 | Prompt | What it does | Needs |
 | --- | --- | --- |
 | P0 | [Build my plan](prompts/P0-build-my-plan.md) | chat |
 | P1 | [Account inventory](prompts/P1-account-inventory.md) | email read access |
 | P2 | [Passkey upgrade run](prompts/P2-passkey-upgrade-run.md) | browser agent |
-| P3 | [Carrier lock walk-through](prompts/P3-carrier-lock-walk-through.md) | browser agent |
+| P3 | [Carrier lock walk-through](prompts/P3-carrier-lock-walk-through.md) | browser or chat coach, carrier app where required |
 | P4 | [Data-broker opt-out sweep](prompts/P4-data-broker-opt-out-sweep.md) | browser agent |
 | P5 | [Credit freeze concierge](prompts/P5-credit-freeze-concierge.md) | browser agent |
 | P6 | [Phone audit coach](prompts/P6-phone-audit-coach.md) | chat |
-| P7 | [Dormant account purge](prompts/P7-dormant-account-purge.md) | browser agent |
+| P7 | [Review and close selected accounts](prompts/P7-dormant-account-purge.md) | browser agent |
 | P8 | [Incident triage](prompts/P8-incident-triage.md) | chat |
 | P9 | [Family protocol and scam drill builder](prompts/P9-family-protocol-and-scam-drill-builder.md) | chat |
 | P10 | [Car data check](prompts/P10-car-data-check.md) | browser agent |
 | P11 | [The stranger test](prompts/P11-the-stranger-test.md) | browser agent or chat with search |
 | P12 | [Big-platform privacy sweep](prompts/P12-big-platform-privacy-sweep.md) | browser agent |
 | P13 | [AI account hygiene check](prompts/P13-ai-account-hygiene-check.md) | browser agent |
-| P14 | [Quarterly re-check](prompts/P14-quarterly-re-check.md) | scheduled |
+| P14 | [Quarterly re-check](prompts/P14-quarterly-re-check.md) | private scheduler or manual reminder |
 
 ## Notes
 
 - Facts and cases were checked on 18 November 2026. See [SOURCES.md](SOURCES.md).
 - Settings paths and menu labels change often. If one has moved, search the app's settings for the feature name.
 - This is general security guidance, not legal or financial advice.
+
+## Editing the manual
+
+Edit the standalone chapters and prompt files first. Run `python3 scripts/build_manual.py` to refresh the embedded prompts and single-file edition. Run `python3 scripts/build_manual.py --check` to check that the copies match.

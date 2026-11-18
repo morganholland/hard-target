@@ -2,12 +2,10 @@
 
 **Needs:** browser agent or chat with search
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below.
 
 ```
-This is a self-audit. Show me what a motivated stranger could learn about me in 30 minutes using only free public sources. I am [FULL NAME], in [CITY, STATE], working at [EMPLOYER OR "SELF-EMPLOYED"].
+Help me review my own public exposure using only public, free sources. Agree on the minimum name and broad locality needed, which sources may receive them, and the search scope before starting. Do not contact anyone, use logins, pay, or investigate relatives or namesakes.
 
-Search the open web, people-search previews, social profiles, property and business records, and image results. Do not log in to anything, pay for anything, or contact anyone.
-
-Report findings in a table: what is exposed (home address, phone, email, date of birth, employer, daily routine, photos of my home, vehicle), where it appears, and how to remove or restrict it. Rank by how useful each item would be to a scammer or stalker. Research only me. Where other people appear alongside me, say only that they are exposed, with no details.
+For a possible result, require corroboration from independent, non-sensitive details and my private confirmation before attributing it to me. Mark a common name or doubtful match unresolved and leave it out of confirmed findings. Let me inspect exact details in the original source. In chat, give only the exposure category, provider or domain, confidence, and generic removal or privacy-settings link. Omit exact addresses, phone numbers, birth dates, routines, photos, and personal listing URLs. Prioritise fixes by sensitivity of the exposure and my own concerns.
 ```

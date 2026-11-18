@@ -2,7 +2,7 @@
 
 Your router is the front door for every device in the house, and your TV is probably the most talkative thing behind it. Fix those two first.
 
-**The case.** In December 2025 the Texas attorney general sued Samsung, LG, Sony, Hisense and TCL over automated content recognition, the feature that identifies what is on your screen. The complaints allege some sets capture a screenshot every 500 milliseconds and send viewing data back for advertising. ([The Record](https://therecord.media/texas-sues-5-smart-tv-makers-over-acr-tech), [Yahoo](https://www.yahoo.com/news/articles/texas-sues-5-biggest-smart-211700913.html)) The suits are allegations, not findings. The setting is real, and you can turn it off today.
+**The case.** In December 2025 the Texas attorney general sued Samsung, LG, Sony, Hisense and TCL over automated content recognition, the feature that identifies what is on your screen. The complaints allege some sets capture a screenshot every 500 milliseconds and send viewing data back for advertising. ([The Record](https://therecord.media/texas-sues-5-smart-tv-makers-over-acr-tech), [Texas attorney general](https://www.texasattorneygeneral.gov/es/node/270621)) The suits are allegations, not findings. The setting is real, and you can turn it off today.
 
 **Baseline: router**
 
@@ -41,5 +41,5 @@ Also reset the TV's advertising ID and decline voice recognition if you do not u
 
 **High-risk**
 
-1. Sweep for trackers you did not place. iPhone and Android both alert on unknown Bluetooth trackers travelling with you. Act on the alert.
-2. Check your car, bags and coats if someone with a motive has had access to them.
+1. If a tracker alert or unfamiliar camera raises a concern about stalking, first consider whether this device is safe to use and what someone might notice if access changes. From a safer device, a trusted advocate can help you plan next steps, including how to preserve evidence. [Safety Net guidance](https://www.techsafety.org/resources-survivors/technology-safety-plan)
+2. Choose a safe time and place, with support if needed, before inspecting or removing a suspected tracker.

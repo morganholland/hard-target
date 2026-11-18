@@ -2,7 +2,7 @@
 
 Your email address is the username for your whole life, so stop handing the same one to everyone. Split it into compartments, and a breach in one stops there.
 
-**The case.** The 2024 National Public Data breach spilled roughly 2.9 billion records, including names, addresses and Social Security numbers. An attacker holding those plus your one email address can try every account you own. A unique address per service makes that list worthless.
+**The case.** National Public Data acknowledged a breach in 2024. A Senate inquiry recorded two different claims: one party described a release of 2.7 billion records, and a lawsuit cited a seller’s claim about 2.9 billion individuals. Neither figure establishes how many distinct people the release affected. Email aliases can limit reuse of an exposed login address across services. [Senate inquiry](https://www.grassley.senate.gov/imo/media/doc/grassley_to_jerico-national_public_data_-_national_public_data_hack.pdf)
 
 **Baseline: three addresses**
 
@@ -15,7 +15,7 @@ Your email address is the username for your whole life, so stop handing the same
 1. Create the vault address at a provider with strong sign-in, such as [Proton Mail](https://proton.me/mail) or a fresh Gmail with Advanced Protection.
 2. Move bank, tax, broker and password-manager logins to the vault address over the next month.
 3. Turn on a masked-email service for everything in the public bucket: Apple Hide My Email, [SimpleLogin](https://simplelogin.io), [addy.io](https://addy.io) or Fastmail masked email. One alias per site.
-4. When an alias starts getting spam, you know who leaked it. Delete the alias.
+4. If an alias starts receiving spam, block the sender or review the alias. Before disabling or deleting it, change it at every service that uses it for login or recovery. Confirm delivery at the new address and test sign-in. If a dependency is unclear, keep the alias. [SimpleLogin guidance](https://simplelogin.io/docs/getting-started/delete-alias/)
 
 **Elevated**
 
@@ -28,4 +28,4 @@ Your email address is the username for your whole life, so stop handing the same
 
 1. Keep names apart, not just addresses. A project, a company and your household should not share a recovery phone, a payment card or a profile photo.
 
-**Agent prompts:** P1 (account inventory), P7 (dormant account purge).
+**Agent prompts:** [P1](../prompts/P1-account-inventory.md) (account inventory), [P7](../prompts/P7-dormant-account-purge.md) (review and close selected accounts).

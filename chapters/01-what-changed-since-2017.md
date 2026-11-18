@@ -2,7 +2,7 @@
 
 In 2017 the advice was to hide: burner phones, Tor, cash. In 2026 the threat is that anyone can buy your profile, clone your voice and automate the con, so the job is to shrink what is for sale and harden what is left.
 
-**The case.** Americans reported $20.9 billion in internet-crime losses to the FBI for 2025, up 26% in a year, across more than a million complaints. For the first time the FBI counted AI-enabled fraud separately: 22,364 complaints and $893 million. ([FBI IC3 2025 report](https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf), [summary](https://www.adamsandreese.com/the-ledger/fbi-releases-2025-internet-crime-report-key-takeaways-for-the-payments-industry))
+**The case.** Americans reported $20.9 billion in internet-crime losses to the FBI for 2025, up 26% in a year, across more than a million complaints. IC3 identified 22,364 complaints with an AI connection and roughly $893 million in reported losses. [FBI IC3 2025 report](https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf)
 
 **Six shifts that reset the playbook**
 
@@ -17,6 +17,6 @@ In 2017 the advice was to hide: burner phones, Tor, cash. In 2026 the threat is 
 
 **The model to keep in your head.** An attacker needs three things: data about you, a channel to reach you, and a way to turn access into money. Each chapter cuts one of the three.
 
-- Data: chapters 4, 6, 7, 10, 12, 13
-- Channel: chapters 3, 5, 9, 11
-- Cash-out: chapters 2, 8, 14
+- Data: chapters [4](04-email-and-identity-compartments.md), [6](06-browser-search-and-network.md), [7](07-data-brokers-take-yourself-off-the-shelf.md), [10](10-what-you-tell-ai.md), [12](12-car-and-the-physical-world.md), [13](13-family-and-kids.md)
+- Channel: chapters [3](03-your-phone-number-is-a-master-key.md), [5](05-harden-the-phone.md), [9](09-ai-impersonation.md), [11](11-home.md)
+- Cash-out: chapters [2](02-accounts-kill-the-password.md), [8](08-money.md), [14](14-when-you-get-hit.md)

@@ -2,10 +2,10 @@
 
 **Needs:** chat
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below. Replace the bracketed text with your choices.
 
 ```
-Coach me through hardening my phone. It is a [IPHONE MODEL AND iOS VERSION / ANDROID MODEL AND VERSION]. Give me one setting at a time: the exact path, what to set it to, and one sentence on why. Wait for me to reply "done", "skip" or "can't find it" before the next one.
+Coach me through my [PHONE MODEL, OS VERSION AND REGION]. Use current manufacturer instructions for this device. Give one setting, its path, its effect, and a way to skip it. Wait for “done,” “skip,” or “can't find it.” If the control is missing, check compatibility and device management. Mark it unsupported, managed, or unverified as applicable. Record a change only when I confirm it.
 
-Cover, in this order: software update, passcode length, stolen-device or theft protection, lock-screen previews, advertising ID and app tracking, location permissions app by app, precise location, microphone, camera, contacts and photo permissions, cloud backup encryption, unused apps, Bluetooth and nearby sharing, and lost-phone tracking. End with a summary of what I changed and what I skipped.
+Cover updates, passcode and theft protection, lock-screen previews, tracking, app and location permissions, backup encryption and recovery, unused apps, nearby sharing, and lost-phone tracking. Before changing sharing on a monitored device or account, offer a safer-device option. Keep authenticators, recovery tools and apps holding local data until I have confirmed their contents and independently tested a replacement. Summarise changes, skips, and unavailable controls.
 ```
