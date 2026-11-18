@@ -4,7 +4,7 @@ Whoever controls your number receives your text codes and password resets, so lo
 
 **The case.** In a SIM swap, a criminal talks or bribes a carrier employee into moving your number to their SIM. Your phone goes dead, and their phone starts receiving your bank codes. All three big US carriers now offer free locks, and most customers have never switched them on. ([TechCrunch](https://techcrunch.com/2025/07/09/how-to-protect-your-cell-phone-number-from-sim-swap-attacks/))
 
-**Baseline: two locks, every line on the account**
+**Baseline: carrier locks**
 
 | Carrier | Blocks SIM changes | Blocks transfers to another carrier |
 | --- | --- | --- |
@@ -12,12 +12,12 @@ Whoever controls your number receives your text codes and password resets, so lo
 | T-Mobile | SIM Protection | Port Out Protection |
 | AT&T | Wireless Account Lock (covers both) | Wireless Account Lock |
 
-Menu labels move. Search your carrier's app for "SIM protection" or "number lock". ([Carrier steps, October 2026](https://meprism.com/blog/sim-swap-port-out-pin-carrier-lock))
+Check the scope, required role, and notification recipients before changing anything. AT&T Wireless Account Lock works in the AT&T app for users with primary or secondary access. It covers the entire account. Switching it on or off emails the primary account holder and texts every active wireless line. [AT&T instructions](https://lsreg.att.com/support/article/wireless/000102016)
 
-1. Turn on both locks for every line, including your partner's and any tablet or watch lines.
+1. On other carriers, verify which protections apply by line and enable them only for lines you are authorised to manage. If notifications could put someone at risk, leave the settings alone until you have a safe plan.
 2. Set a carrier account PIN that is not a birthday, and store it in your password manager.
-3. Move every account you can from SMS codes to a passkey or authenticator app. Start with email and banks.
-4. Set a SIM PIN on the phone itself, so a stolen SIM is useless in another handset.
+3. For email and banking, test a new sign-in and independent recovery method before retiring optional SMS authentication.
+4. A device SIM PIN protects the SIM or eSIM and is separate from the carrier account PIN. If the existing SIM PIN or unlock code (PUK) is unknown, stop and contact the carrier. Repeated guesses can permanently block the SIM. [Apple SIM PIN guide](https://support.apple.com/en-us/118228)
 
 **Elevated**
 
@@ -30,6 +30,6 @@ Menu labels move. Search your carrier's app for "SIM protection" or "number lock
 1. Put financial accounts on a number that exists only for that purpose and is never given to a human.
 2. Consider a carrier that requires in-person or multi-step verification for any SIM change.
 
-**Warning sign.** Sudden "No Service" at home is an emergency, not a glitch. Go straight to chapter 14.
+**Warning sign.** An unexpected loss of service can signal a SIM swap. Contact your carrier from another phone if you suspect one. See [chapter 14](14-when-you-get-hit.md).
 
-**Agent prompt:** P3 (carrier lock walk-through).
+**Agent prompt:** [P3](../prompts/P3-carrier-lock-walk-through.md) (carrier lock walk-through).

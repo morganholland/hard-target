@@ -2,12 +2,10 @@
 
 **Needs:** browser agent
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below. Replace the bracketed text with your choices.
 
 ```
-Tighten the privacy settings on my accounts at: Google, Apple, Microsoft, Amazon, Meta (Facebook and Instagram), LinkedIn, and [OTHERS].
+Review the privacy controls for [PLATFORMS]. Verify the official dashboard before private sign-in. Review ad personalisation, activity and location history, retention, sharing, profile visibility, tagging, public indexing, and connected apps only where that provider offers them.
 
-For each: open the official privacy or account dashboard and say "your turn" for sign-in. Read me the current state of: ad personalisation, activity and location history and its auto-delete period, data sharing with partners, off-site activity tracking, profile visibility, face recognition or tagging, search-engine indexing of my profile, and third-party apps with access.
-
-Recommend the more private option for each and ask before changing it. Remove only the third-party apps I name. Log before and after.
+For each control, report the observed setting and effect. If an employer or school manages it, mark “managed.” Distinguish unsupported, unverified, unchanged, and changed. Do not work around a managed control. Explain notification or sharing effects and ask before every change. Remove only apps I specifically name and approve. Log the outcome without personal identifiers.
 ```

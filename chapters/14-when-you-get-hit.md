@@ -1,34 +1,31 @@
 # 14. When you get hit
 
-Speed decides how much you lose. Work the first hour in this order: stop the money, take back the email, lock the number, then clean up.
+Start with the row that matches what just happened. Use a number you already trust or the provider’s official app or website. If there is immediate physical danger, seek local emergency help from a safe device.
 
-**The first hour, by scenario**
-
-| What happened | First call | Then |
+| What happened | Do this now | Then |
 | --- | --- | --- |
-| You sent money to a scammer | Your bank's fraud line. Ask for a recall or reversal, now. | File at [ic3.gov](https://www.ic3.gov) the same day. The FBI can sometimes freeze funds if told within days. |
-| Phone shows "No Service" at home | Your carrier, from another phone. Say "suspected SIM swap". | Change email and bank passwords from a computer. Remove SMS as a sign-in method. |
-| Email account taken over | The provider's account-recovery page, using your printed codes | Sign out all sessions. Delete forwarding rules and filters you did not create. Check sent mail. |
-| Phone stolen | Mark it lost in Find My or Find Hub from another device | Call the carrier to suspend the line. Change your Apple or Google password. |
-| Card or bank fraud | The number on the back of the card | Freeze the card in the app. Check every other account at that bank. |
-| Someone opened accounts in your name | [identitytheft.gov](https://www.identitytheft.gov) for a recovery plan and official report | Freeze all credit files. Dispute each account in writing. |
-| Your address or family details were posted | Screenshot everything with the URL and time | Report to the platform. Run P4. Tell local police if there is a threat. |
-| A "relative in trouble" call | Hang up. Call the relative on their saved number. | If you already paid, treat it as row one. |
+| Bank wire | Call the sending bank’s fraud team and ask for an immediate recall. | Save the receipt and ask how to follow up. |
+| Wire-transfer service | Contact the service that sent it and request a reversal. | Keep the transfer reference for your report. |
+| Payment app | Report the payment to the app provider now and request reversal. | If a bank or card funded it, contact that institution too. |
+| Gift card | Contact the card issuer now and ask whether it can recover the funds. | Keep the card and receipt. |
+| Card or bank debit | Contact the issuer or bank using the app or number on the card. Report the unauthorised transaction and ask for reversal. | Ask whether to freeze or replace the card and review recent activity. |
+| Cryptocurrency | Contact the service used to send it and ask what recovery is possible. | Preserve the transaction reference. Recovery is usually difficult. |
+| Suspected SIM swap or unexpected loss of service | Call your carrier from another phone and ask it to restore control of your number. | Secure email and financial accounts from a trusted device. If money also moved, contact the payment provider immediately. |
+| Email takeover | Use the provider’s official recovery route from a trusted device. | Review sessions, recovery methods, forwarding and filters. Verify independent access before retiring a method. |
+| Stolen phone | Mark it lost in Find My or Find Hub from another device. | Contact the carrier to suspend the line and check the device account. |
+| Accounts opened in your name | Contact the company’s fraud team. US readers can get a recovery plan at [IdentityTheft.gov](https://www.identitytheft.gov). | US readers can freeze credit files and dispute the accounts. |
+| Address or family details exposed | Consider immediate safety and preserve the URL and time privately if safe. | Report to the platform. Use [P4](../prompts/P4-data-broker-opt-out-sweep.md) for your own broker listings. |
+| Call claiming a relative is in trouble | Call the relative back on a saved number. If unreachable, try another trusted contact. | If you paid, use the row for that payment method. |
 
-**After the first hour**
+[FTC payment-specific instructions](https://consumer.ftc.gov/articles/what-do-if-you-were-scammed) · [FTC SIM-swap instructions](https://consumer.ftc.gov/consumer-alerts/2019/10/sim-swap-scams-how-protect-yourself)
 
-1. Change the password and sign-in method on the affected account and on every account that shared its password or recovery email.
-2. Check for persistence: mail forwarding rules, new recovery phone numbers, unfamiliar devices, new app passwords, new payees.
-3. Write a timeline while you remember it: what happened, when, which numbers and addresses were involved. Banks and police will ask.
-4. Report it. Reports build the case for reimbursement even when nobody is caught: [ic3.gov](https://www.ic3.gov), [reportfraud.ftc.gov](https://reportfraud.ftc.gov), and your local police for a report number.
-5. Expect a second wave. "Recovery agents" who promise to get your money back for a fee are the same criminals.
-6. Tell your family what happened. Shame keeps people quiet, and silence is what the next scam relies on.
+**Once the urgent call is under way**
 
-**Keep this ready now**
+1. Record what happened, when, who you contacted, and the case number. Keep receipts and messages privately.
+2. Secure affected accounts. Check for unfamiliar devices, forwarding rules, recovery contacts, app passwords, or new payees.
+3. Use the reporting authority for your country. In the US, use [ReportFraud.ftc.gov](https://reportfraud.ftc.gov) for consumer fraud, [IC3](https://www.ic3.gov) for internet crime, and IdentityTheft.gov for identity theft. Local police can take a report where relevant.
+4. Keep talking to the official provider. Anyone demanding an upfront fee to recover the money may be running a follow-up scam. Tell someone you trust if it is safe.
 
-- Bank and card fraud numbers, saved as contacts
-- Carrier fraud number and account PIN
-- Printed recovery codes for email and password manager
-- A second device or a trusted person's phone you can sign in from
+**Keep handy:** official bank and carrier fraud contacts, a trusted device, and a private record of the recovery methods your providers support.
 
-**Agent prompt:** P8 (incident triage).
+**Agent prompt:** [P8](../prompts/P8-incident-triage.md) (incident triage).

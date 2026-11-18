@@ -2,12 +2,12 @@
 
 Blocking trackers in the browser does more for your privacy than a VPN does, and takes ten minutes.
 
-**The case.** Ad auctions broadcast your device details, and often your location, to every bidder each time a page or app loads an ad. Brokers sit in those auctions and keep the data whether or not they win. That is how the Gravy Analytics trove in chapter 5 was built. A content blocker stops the ad code loading at all.
+**The case.** Ad auctions broadcast your device details, and often your location, to every bidder each time a page or app loads an ad. Brokers sit in those auctions and keep the data whether or not they win. That is how the Gravy Analytics trove in [chapter 5](05-harden-the-phone.md) was built. A content blocker stops the ad code loading at all.
 
 **Baseline**
 
 1. Use [Firefox](https://www.mozilla.org/firefox/) or [Brave](https://brave.com) as your daily browser. Safari is a reasonable choice on Apple devices.
-2. Install [uBlock Origin](https://ublockorigin.com) on Firefox. Brave blocks by default. On Chrome, use uBlock Origin Lite.
+2. On Firefox, install [uBlock Origin by Raymond Hill from Mozilla Add-ons](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/). Brave blocks by default. On Chrome, use uBlock Origin Lite.
 3. Turn on Global Privacy Control. It is a legal opt-out signal in several US states and is built into Firefox and Brave.
 4. Remove every browser extension you do not use weekly. Extensions can read every page you open.
 5. Set encrypted DNS: [Quad9](https://quad9.net), Cloudflare 1.1.1.1, or [NextDNS](https://nextdns.io) for per-device block lists.
@@ -34,4 +34,4 @@ If you want one, pick a provider with audited no-logs claims: [Mullvad](https://
 1. Use Tor Browser for research you do not want tied to you. Do not sign in to anything personal inside it.
 2. Do sensitive work on a separate device that has never held your personal accounts.
 
-**Agent prompt:** P12 (big-platform privacy settings sweep).
+**Agent prompt:** [P12](../prompts/P12-big-platform-privacy-sweep.md) (big-platform privacy settings sweep).

@@ -2,16 +2,14 @@
 
 **Needs:** browser agent
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below. Replace the bracketed text with your choices.
 
 ```
-Work through this list of accounts, one at a time: [LIST FROM P1, CROWN JEWELS FIRST].
+Help me secure these accounts one at a time: [SERVICES, NO LOGIN DETAILS]. Start with email or my password manager. Keep a trusted signed-in session open throughout. Before opening sign-in, enrollment, recovery, or codes pages, hand me private control. If capture cannot be paused, guide me in my own browser. I will tell you when I have left the sensitive screen. Log only the method names and my yes/no confirmations.
 
-For each: open the official site, and say "your turn" for me to sign in. Go to the security or sign-in settings. Tell me which sign-in methods are on: password, SMS code, authenticator app, passkey, security key. Then, in order, and asking before each change:
-1. Open the "add a passkey" screen and hand it to me.
-2. Open the recovery codes screen and hand it to me so I can save them. Do not read or copy the codes.
-3. If a passkey or authenticator is now working, offer to remove SMS as a sign-in method.
-4. Show me the list of signed-in devices and connected apps. Remove only the ones I name.
-
-Log the before and after state of each account. If an account offers no passkey, note the strongest option it does offer.
+1. Help me identify the methods the provider supports and add my chosen passkey privately.
+2. Have me verify a fresh sign-in in a separate browser session while the original session stays open. A credential displayed as registered is not proof of a working sign-in.
+3. Have me verify a provider-supported recovery method I could use if this device were lost. Keep backup keys separately. Where codes are offered, I reveal and store them privately before returning control. Google Advanced Protection does not offer downloadable backup codes; check a separately stored registered key or passkey. Mark any one-use code spent if tested and keep the remaining set current.
+4. Only offer to retire SMS or another method after I confirm both the fresh sign-in and independent recovery. Otherwise keep the existing method and log what is missing. Ask separately about each change. Never remove a provider-required method.
+5. Review signed-in devices and connected apps if I ask. Remove only entries I identify and approve, one at a time.
 ```

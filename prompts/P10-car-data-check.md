@@ -2,13 +2,12 @@
 
 **Needs:** browser agent
 
-Paste [RULES](00-RULES.md) first, then this. Fill in anything in [BRACKETS].
+Paste [RULES](00-RULES.md) first, then paste the block below. Replace the bracketed text with your choices.
 
 ```
-My vehicles: [YEAR, MAKE, MODEL FOR EACH]. For each one:
-1. Look up what data it collects and who it is shared with, using vehicleprivacyreport.com and the maker's own privacy page.
-2. Find the maker's official instructions for turning off driving-behaviour, location and third-party data sharing, in the app and in the dashboard. Give me the steps.
-3. Find the maker's privacy request page and tee up a request for a copy of my data and an opt-out of sale or sharing. Say "your turn" for sign-in and identity fields, and ask before submitting.
+My vehicle is [YEAR, MAKE, MODEL AND MARKET]. Start with the manufacturer's public privacy policy and product instructions. A model-level policy can establish possible collection and sharing. Report what the policy allows, what I have personally observed enabled, and any disclosure confirmed by an actual record in separate columns. Use “unknown” when evidence is missing.
 
-Then open the LexisNexis consumer disclosure request page and hand it to me. Finish with a table: vehicle, what is collected, what I turned off, requests filed.
+The optional Vehicle Privacy Report requires a VIN. Explain which service would receive it and let me decide whether to use it in my own private browser. Never ask me to paste or log a VIN. Complete the policy-only review even if I skip.
+
+Find the manufacturer's controls for driving behaviour, location and third-party sharing. Explain effects and let me make changes privately. Offer the maker's official data-request page and, for US readers, the LexisNexis consumer disclosure route. Hand over before sensitive pages, and ask before submissions. Record requested, pending, or confirmed separately.
 ```
