@@ -2,4 +2,4 @@
 
 Open items only Morgan can do. Delete a line when it is done.
 
-- Create a KDP account at kdp.amazon.com, including the tax interview and bank details. A step-by-step page will be linked here.
+- Publish the Kindle edition on KDP: account, tax and bank details, then the upload. Step-by-step page with every value ready to copy: https://claude.ai/artifact/42S7qhsvETuD1pgJnoxvyY
