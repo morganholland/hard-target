@@ -34,18 +34,18 @@ def build_editions():
     prompt_files = sorted(
         PROMPTS.glob("P*-*.md"), key=lambda path: int(path.name[1:].split("-")[0])
     )
-    intro, marker, _ = LIBRARY.read_text(encoding="utf-8").partition("\n### Shared rules\n")
+    intro, marker, _ = LIBRARY.read_text(encoding="utf-8").partition("\n## Shared rules\n")
     if not marker:
         raise ValueError("Missing 'Shared rules' heading in the prompt library")
 
     chapters = {path: path.read_text(encoding="utf-8") for path in sorted(CHAPTERS.glob("*.md"))}
     targets = {path: anchor(heading(content)) for path, content in chapters.items()}
     targets[RULES] = "#shared-rules"
-    sections = [intro.rstrip(), "### Shared rules", prompt_block(RULES)]
+    sections = [intro.rstrip(), "## Shared rules", prompt_block(RULES)]
     for path in prompt_files:
         title = heading(path.read_text(encoding="utf-8"))
         targets[path] = anchor(title)
-        sections.extend(["### " + title, prompt_block(path)])
+        sections.extend(["## " + title, prompt_block(path)])
     library = "\n\n".join(sections) + "\n"
     chapters[LIBRARY] = library
     chapters[SOURCES] = SOURCES.read_text(encoding="utf-8")
@@ -63,7 +63,9 @@ def build_editions():
 
         for index in range(0, len(chunks), 2):
             chunks[index] = re.sub(r"\]\(([^():#\s]+\.md)\)", local_link, chunks[index])
-        manual.append("#" + "```".join(chunks).strip())
+            # Demote every prose heading one level: chapter titles become ##.
+            chunks[index] = re.sub(r"(?m)^(#{1,5}) ", r"#\1 ", chunks[index])
+        manual.append("```".join(chunks).strip())
     return {LIBRARY: library, MANUAL: "\n\n".join(manual) + "\n"}
 
 

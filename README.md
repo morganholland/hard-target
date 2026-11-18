@@ -2,12 +2,12 @@
 
 **A 2026 field manual for digital privacy, with paste-ready prompts that let an AI agent do the legwork.**
 
-Start with the accounts a household relies on and a way to recover them if a phone goes missing. The credit, tax, carrier, and reporting examples are primarily for US readers.
+You cannot be invisible in 2026, but you can be a hard target: expensive to scam, slow to find, and quick to recover. Each chapter opens with a real, sourced case, then gives the moves ranked by impact across three tiers: Baseline, Elevated and High-risk.
 
-If someone may monitor your device or share access to your accounts, you can use a safer device and read the [safety guidance](chapters/00-start-here.md) before changing anything. If a payment just went out or a number was taken over, go directly to [incident response](chapters/14-when-you-get-hit.md).
+> If someone may be monitoring your device or shares your accounts, read the [safety note](chapters/00-start-here.md) before changing anything. If money just moved or your number was taken over, go straight to [incident response](chapters/14-when-you-get-hit.md).
 
 - Read it in one file: [MANUAL.md](MANUAL.md)
-- Short on time? Do the [first-session checklist](chapters/00-start-here.md).
+- Short on time? Do the [90-minute quick start](chapters/00-start-here.md).
 - Want an agent to do it? Start with [the rules](prompts/00-RULES.md), then [P0](prompts/P0-build-my-plan.md).
 
 ## Chapters
@@ -34,7 +34,7 @@ If someone may monitor your device or share access to your accounts, you can use
 
 ## Agent prompts
 
-Paste [RULES](prompts/00-RULES.md) first, then one prompt. Use private takeover before a sensitive page opens and leave it before the agent resumes. Where the tool cannot pause capture, follow directions in your own browser. P14 needs a separately approved schedule and private destination.
+Paste [RULES](prompts/00-RULES.md) first, then one prompt. The rules keep you in control: you take over the screen before anything secret appears, the agent treats web pages as information rather than instructions, and it asks before every submit, send, delete or purchase.
 
 | Prompt | What it does | Needs |
 | --- | --- | --- |
